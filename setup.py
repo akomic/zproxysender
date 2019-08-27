@@ -8,7 +8,15 @@ setup(name='ZabbixProxySender',
       author='Alen Komic',
       author_email='akomic@gmail.com',
       url='https://github.com/akomic/zproxysender',
+      download_url='https://github.com/akomic/zproxysender/archive/0.0.1.tar.gz',
       packages=['ZabbixProxySender'],
+      install_requires=[
+          'datetime',
+          'json',
+          're',
+          'socket',
+          'time'
+      ],
       keywords='zabbix proxy sender monitoring',
       license='Apache Software License',
       classifiers=[
