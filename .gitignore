@@ -1,0 +1,10 @@
+*~
+**/*~
+*.pyc
+**/*.pyc
+config.ini
+logging.ini
+tmp
+**/__pycache__
+build
+x.py
