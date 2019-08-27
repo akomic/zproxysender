@@ -3,8 +3,8 @@ from distutils.core import setup
 setup(name='ZabbixProxySender',
       version='0.0.1',
       description='Simple Zabbix Proxy Sender',
-      long_description=open('README.md', 'r').read() + '\n\n' + open(
-          'CHANGELOG.md', 'r').read(),
+      long_description=open('README.rst', 'r').read() + '\n\n' + open(
+          'CHANGELOG.rst', 'r').read(),
       author='Alen Komic',
       author_email='akomic@gmail.com',
       url='https://github.com/akomic/zproxysender',
